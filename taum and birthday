@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main() 
+{ 
+    int T,B,W,X,Y,Z;
+    scanf("%d",&T);
+     while(T-- >0)
+     {
+     scanf("%d%d",&B,&W);
+     scanf("%d%d%d",&X,&Y,&Z);
+     if(X>(Y+Z))
+     {
+         X=Y+Z;
+     }
+     else if(Y>(X+Z))
+     {
+         Y=X+Z;
+     }
+     printf("%d\n",((B*X)+(W*Y)));
+     }
+    return 0;
+   
+}
