@@ -4,10 +4,14 @@ void main()
 {
     int n [20],i,N,a,b,c,d,e,f,g,h,j=9;
     scanf("%d",&N);
+    if(N<=50)
+    {
     for(i=1;i<=N;i++)
     {
         scanf("%d,",&n[i]);
-        
+        if(n[i]<50000)
+            continue;
+    }
     }
     if(n[1]>n[2])
     {
