@@ -6,7 +6,7 @@ void main()
     scanf("%d",&N);
     for(i=1;i<=N;i++)
     {
-        scanf("%d",&n[i]);
+        scanf("%d,",&n[i]);
         
     }
     if(n[1]>n[2])
